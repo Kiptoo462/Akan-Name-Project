@@ -23,7 +23,7 @@ https://github.com/Kiptoo462/Akan-Name-Project.git
   ```
 
 3. Open `index.html` with browser
-## live link
+## Live link
    [Akan-Name Project](https://github.com/Kiptoo462/Akan-Name-Project)
 ## BDD
   As a user, I would like to;
@@ -40,4 +40,4 @@ https://github.com/Kiptoo462/Akan-Name-Project.git
 victor.kiptoo@student.moringaschool.com
 ### License
 *This license is under[MIT LICENSE](LICENSE.md)*
-Copyright (c) {2021}**Kiptoo Victor**
+Copyright (c) 2021 **Kiptoo Victor**
