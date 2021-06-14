@@ -31,6 +31,9 @@ https://github.com/Kiptoo462/Akan-Name-Project.git
 + Enter my birthday through a form.
 + Choose what gender.
 + Click the submit button to see what my Akan name would be display.
+
+## Known Bugs
+The application does not give the expected answer.
 ## Technologies Used
   *  HTML
   *  CSS
