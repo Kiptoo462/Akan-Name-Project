@@ -88,7 +88,7 @@ function validateUserInput(day,month,year,gender) {
 
 
     //calculate day of the week
-    dd =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
+    dd=( ( (CC/4) -2*CC-1) + ( (5*YY/4) ) + ((26*(MM+1)/10) ) + DD)%7;
    return (Math.floor(dd));
   
   }
