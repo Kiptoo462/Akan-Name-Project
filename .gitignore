@@ -265,3 +265,6 @@ dist/
 ###SVN###
 
 .svn/
+###deletes##
+.vscode/
+static/images/
