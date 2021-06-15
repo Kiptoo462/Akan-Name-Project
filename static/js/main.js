@@ -78,16 +78,13 @@ function validateUserInput(day,month,year,gender) {
 
    }
 
-
+     //calculate day of the week
    function getDayOfWeek(century,year,month,day){
 
     CC = parseInt(century);
     YY = parseInt(year);
     MM = parseInt(month);
     DD = parseInt(day);
-
-
-    //calculate day of the week
     dd=( ( (CC/4) -2*CC-1) + ( (5*YY/4) ) + ((26*(MM+1)/10) ) + DD)%7;
    return (Math.floor(dd));
   
@@ -98,6 +95,7 @@ function validateUserInput(day,month,year,gender) {
     //declare an array to store names based on day 0th index represents sunday,6th saturday
     var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
     var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
+    var dayNames = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday" ];
 
     //return the name
     if(gender == "female"){
